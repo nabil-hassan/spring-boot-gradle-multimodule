@@ -5,7 +5,10 @@
 plugins {
     id 'multimodule-config'
     id 'multimodule-spring-boot'
-    id 'org.springframework.boot' 
+}
+
+bootJar {
+    enabled = false
 }
 
 dependencies {

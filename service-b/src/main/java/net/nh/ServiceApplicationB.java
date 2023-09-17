@@ -11,7 +11,7 @@ public class ServiceApplicationB {
     public static final Logger LOG = LoggerFactory.getLogger(ServiceApplicationB.class);
 
     public static void main(String[] args) {
-        LOG.info("Starting service B");
+        LOG.info("{}", CommonUtils.welcomeMessage());
         SpringApplication.run(ServiceApplicationB.class, args);
     }
 }
