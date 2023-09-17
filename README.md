@@ -1,4 +1,4 @@
-# spring-boot-gradle-multimodule
+# Spring Boot Gradle multi-module project
 
 Illustrates how to use a Gradle multi-module project to build multiple Spring Boot applications.
 
