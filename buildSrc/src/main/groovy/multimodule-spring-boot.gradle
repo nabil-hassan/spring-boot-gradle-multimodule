@@ -1,0 +1,9 @@
+//// ==============================================================
+//// multimodule-spring-boot.gradle
+////
+//// contains all Spring Boot Gradle configuration
+//// ==============================================================
+//plugins {
+//    id 'java'
+//    id 'org.springframework.boot' version '3.0.0'
+//}

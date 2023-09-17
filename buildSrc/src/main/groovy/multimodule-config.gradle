@@ -1,0 +1,23 @@
+// ==============================================================
+// multimodule-config.gradle
+//
+// contains all common non-spring Gradle configuration
+// ==============================================================
+plugins {
+    id 'java'
+}
+
+sourceCompatibility = JavaVersion.VERSION_20
+targetCompatibility = JavaVersion.VERSION_20
+
+repositories {
+    mavenCentral()
+}
+
+test {
+    useJUnitPlatform()
+}
+
+dependencies {
+    compileOnly 'org.projectlombok:lombok:1.18.24'
+}
