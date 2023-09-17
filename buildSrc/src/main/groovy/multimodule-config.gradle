@@ -17,7 +17,3 @@ repositories {
 test {
     useJUnitPlatform()
 }
-
-dependencies {
-    compileOnly 'org.projectlombok:lombok:1.18.24'
-}

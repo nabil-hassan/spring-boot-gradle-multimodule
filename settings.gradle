@@ -12,6 +12,6 @@ plugins {
 
 rootProject.name = 'spring-boot-gradle-multimodule'
 
-include'common'
+include 'common'
 include 'service-a'
 include 'service-b'
