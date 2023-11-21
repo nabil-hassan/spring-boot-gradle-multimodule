@@ -68,6 +68,18 @@ plugins {
 }
 ```
 
+### Adding dependencies for individual sub-modules
+
+To add a dependency for a single sub-module only, open the sub-module's folder, and add a definition like:
+
+Notice no explicit version is specified - the version is kept consistent via the Spring Boot dependency management plugins (see above).
+
+```
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-aop'
+}
+```
+
 ### Caveat regarding library modules
 
 * The `common` module is just library code, and not a real Spring Boot application.
